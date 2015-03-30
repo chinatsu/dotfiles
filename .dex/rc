@@ -1,0 +1,24 @@
+include $PKGDATADIR/binding/default
+include ~/.dex/darkgay
+include $PKGDATADIR/compiler/gcc
+include $PKGDATADIR/compiler/go
+include $PKGDATADIR/filetype
+
+set auto-indent true
+set indent-width 4
+set case-sensitive-search auto
+set tab-bar hidden
+set expand-tab true
+set emulate-tab true
+set show-line-numbers false
+
+alias cl close
+alias o open
+alias q quit
+alias r replace
+alias s save
+alias t tag
+alias man "run man"
+alias make "compile gcc make"
+alias read "pass-through cat"
+

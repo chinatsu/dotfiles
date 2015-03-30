@@ -1,0 +1,24 @@
+variables:
+  primary: green
+  secondary: red
+  tertiary: yellow
+  special: magenta
+  transparency: 90
+  fontName: Tewi
+  fontSize: 10
+  font: "-*-tewi-*-*-*-*-10-*-*-*-*-*-*-*"
+plugins:
+  parsers:
+    - themer.parsers.SweylaColorParser
+    - themer.parsers.KmeansColorParser
+    - themer.parsers.CachedColorParser
+    - themer.ColorParser
+  activators:
+  # - themer.activators.wallfix.WallfixActivator
+  # - themer.activators.i3.I3Activator
+  # - themer.activators.acyl.ACYLActivator
+files:
+  Xresources.tpl: .Xresources
+  index.tpl: index.html
+  bspwmrc.tpl: bspwmrc
+  conky.tpl: conkyrc

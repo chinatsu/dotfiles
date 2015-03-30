@@ -1,0 +1,38 @@
+URxvt.depth: 32
+*font: xft:Tewi:pixelsize=10
+
+URxvt*.background: [90]#0e0e0e
+URxvt*.foreground: #ffffff
+URxvt*.cursorColor: #a0531c
+
+! black
+URxvt*.color0: #201209
+URxvt*.color8: #968d84
+! red
+URxvt*.color1: #bd7243
+URxvt*.color9: #c88862
+! green
+URxvt*.color2: #a06d53
+URxvt*.color10: #c86826
+! yellow
+URxvt*.color3: #a05a27
+URxvt*.color11: #c85b3a
+! blue
+URxvt*.color4: #a07661
+URxvt*.color12: #c85a2d
+! magenta
+URxvt*.color5: #a97a62
+URxvt*.color13: #cab2a3
+! cyan
+URxvt*.color6: #a8a39c
+URxvt*.color14: #c89e83
+! white
+URxvt*.color7: #a0531c
+URxvt*.color15: #c8ac9d
+! underline when default
+URxvt*.colorUL: #a0531c
+
+URxvt*.scrollBar: false
+URxvt*.perl-ext-common: default,matcher
+URxvt*.url-launcher: /usr/bin/qutebrowser
+URx*.matcher.button: 1
